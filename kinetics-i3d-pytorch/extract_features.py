@@ -94,3 +94,4 @@ def run(max_steps=64e3, mode='rgb', root='', split='', batch_size=1, load_model=
 if __name__ == '__main__':
     # need to add argparse
     run(mode=args.mode, root=args.root, split=args.split, load_model=args.load_model, save_dir=args.save_dir)
+    
